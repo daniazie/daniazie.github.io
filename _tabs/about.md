@@ -2,7 +2,6 @@
 title: About
 icon: fas fa-info-circle
 order: 4
-permalink: /
 ---
 
 I am Dania, a Malaysian student studying Software Convergence at Kyung Hee University, Korea. My interests and hobbies include writing, music, reading, and photography.
