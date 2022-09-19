@@ -34,17 +34,17 @@ url: 'https://daniazie.github.io'
 github:
   username: daniazie          # change to your github username
 
-twitter:
-  username: daniazie__            # change to your twitter username
+# twitter:
+  # username: daniazie__            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Nur Alya Dania binti Moriazi
-  email: dania.moriazi01@khu.ac.kr            # change to your email address
+  # email: dania.moriazi01@khu.ac.kr            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/daniazie__      # change to your twitter homepage
+    # - https://twitter.com/daniazie__      # change to your twitter homepage
     - https://github.com/daniazie         # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
