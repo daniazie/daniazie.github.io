@@ -20,3 +20,5 @@ package-lock.json
 
 # Misc
 assets/js/dist
+change_name_in_file.py
+venv
