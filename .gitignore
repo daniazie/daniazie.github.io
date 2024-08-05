@@ -22,3 +22,4 @@ package-lock.json
 assets/js/dist
 change_name_in_file.py
 venv
+change_filename.py
