@@ -8,11 +8,9 @@ I'm Dania, a 3rd year student at Kyung Hee University. I am currently pursuing a
 
 ## Education
 
-Kyung Hee University, Dept. of Software Convergence (Data Science Track)
+- Kyung Hee University, Dept. of Software Convergence (Data Science Track)
 2022.3 ~ 2026.2
 
-Kyung Hee University, Dept. of Space Science (Double Major)
+- Kyung Hee University, Dept. of Space Science (Double Major)
 2024.4 ~ 2026.2
 
-Shah Alam National Secondary School (Computer Science Track)
-2015.3 ~ 2019.12
