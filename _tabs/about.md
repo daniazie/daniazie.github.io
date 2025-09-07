@@ -19,7 +19,7 @@ order: 4
     }
 </style>
 
-I'm Dania, a final year student at Kyung Hee University double majoring in Software Convergence (specialising in the Data Science track) and Space Science. I am currently an undergraduate researcher in the Language and Data Intelligence (LDI) Lab where I explore my interest in NLP. My research interests include text simplification, machine translation and hallucination.
+Hello! I am Dania Moriazi, a final year student at Kyung Hee University double majoring in Software Convergence (specialising in the Data Science track) and Space Science. I am currently an undergraduate research in the Language and Data Intelligence (LDI) Lab under my university's Department of Artificial Intelligence where I explore my interest in Natural Language Processing. My research interests include controllable text generation, with a focus on text summarisation, and more recently, machine translation.
 
 ## Education
 
