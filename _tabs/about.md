@@ -6,13 +6,20 @@ order: 4
 <style>
     .column {
         float: left;
-        width:50%;
+        width:45%;
+        margin-top: 0px;
+    }
+
+    .row {
+        margin-left: 50px;
+        margin-top: 0px;
     }
 
     .row:after {
         content: "";
         display: table;
         clear: both;
+        margin-top: 0px;
     }
 </style>
 
@@ -20,22 +27,20 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 
 ## Education
 
+**Kyung Hee University**
 <div class='row'>
 <div class='column'>
-
-
-- Kyung Hee University, Dept. of Software Convergence (Data Science Track)
-    - 2022.3 – 2026.2.
-
-
+<dl> 
+<dt>B.E. in Software Convergence (Data Science Track)</dt>
+<dd>2022.3 – 2026.2.<dl>
+</dl>
 </div>
 
 <div class='column'>
-
-
-- Kyung Hee University, Dept. of Space Science (Double Major)
-    - 2022.3 – 2026.2.
-
+<dl>
+<dt>B.S. in Space Science and Astronomy (Double Major)</dt>
+<dd>2022.3 – 2026.2.</dd>
+</dl>
 
 </div>
 </div>
