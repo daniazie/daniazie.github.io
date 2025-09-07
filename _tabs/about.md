@@ -24,7 +24,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 
 ## Education
 
-**Kyung Hee University**
+<b>Kyung Hee University</b>
 <div>
 <dl>
 <div class='row'>
