@@ -8,6 +8,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 
 ## Education
 
+<html>
 <table>
 <td>
 
@@ -20,6 +21,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
     - 2022.3 – 2026.2
 </td>
 </table>
+</html>
 
 ## Publications
 
