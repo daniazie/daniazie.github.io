@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CMU Advanced NLP (1): Introduction to NLP 내용 정리"
-published: true
+published: false
 date: 2025-04-18
 math: true
 categories: 
