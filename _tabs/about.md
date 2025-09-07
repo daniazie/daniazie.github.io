@@ -25,8 +25,9 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 ## Education
 
 **Kyung Hee University**
-<div class='row'>
+<div>
 <dl>
+<div class='row'>
 <div class='column'>
 
 <dt>B.E. in Software Convergence (Data Science Track)</dt>
@@ -37,6 +38,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 <div class='column'>
 <dt>B.S. in Space Science and Astronomy (Double Major)</dt>
 <dd>2022.3 – 2026.2.</dd>
+</div>
 </div>
 </dl>
 </div>
