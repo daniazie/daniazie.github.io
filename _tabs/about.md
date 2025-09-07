@@ -7,19 +7,16 @@ order: 4
     .column {
         float: left;
         width:45%;
-        margin-top: 0px;
     }
 
     .row {
         margin-left: 50px;
-        margin-top: 0px;
     }
 
     .row:after {
         content: "";
         display: table;
         clear: both;
-        margin-top: 0px;
     }
 </style>
 
@@ -29,26 +26,24 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 
 **Kyung Hee University**
 <div class='row'>
+<dl>
 <div class='column'>
-<dl> 
 <dt>B.E. in Software Convergence (Data Science Track)</dt>
 <dd>2022.3 – 2026.2.<dl>
-</dl>
 </div>
-
 <div class='column'>
-<dl>
 <dt>B.S. in Space Science and Astronomy (Double Major)</dt>
 <dd>2022.3 – 2026.2.</dd>
-</dl>
-
 </div>
+</dl>
 </div>
 
 ## Publications
 
-- KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation, BioNLP Shared Tasks Workshop 2025
-    - **Nur Alya Dania binti Moriazi**, Mujeen Sung
-
-- Patient-Friendly Radiology Report Generation using Large Language Models, KCC 2025
-    - **Nur Alya Dania binti Moriazi**, Mujeen Sung
+<dl> 
+<dt>KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation, <i>BioNLP Workshop (Shared Tasks) at ACL 2025</i></dt>
+<dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
+<br>
+<dt>Patient-Friendly Radiology Report Generation using Large Language Models, <i>KCC 2025</i></dt>
+<dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
+</dl>
