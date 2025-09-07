@@ -9,7 +9,7 @@ order: 4
     }
 
     .row {
-        margin-left: 30px;
+        margin-left: 25px;
     }
 
     .row:after {
