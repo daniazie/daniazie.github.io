@@ -31,7 +31,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 <div class='column'>
 
 <dt>B.E. in Software Convergence (Data Science Track)</dt>
-<dd>2022.3 – 2026.2.</dd><dl>
+<dd>2022.3 – 2026.2.</dd>
 
 </div>
 
