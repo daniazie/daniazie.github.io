@@ -25,7 +25,7 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 
 
 - Kyung Hee University, Dept. of Software Convergence (Data Science Track)
-    - 2022.3 – 2026.
+    - 2022.3 – 2026.2.
 
 
 </div>
