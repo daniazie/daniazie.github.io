@@ -50,9 +50,9 @@ I'm Dania, a final year student at Kyung Hee University double majoring in Softw
 ## Publications
 
 <dl> 
-<dt><b>KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation</b>, <i>BioNLP Workshop (Shared Tasks) at ACL 2025</i></dt>
+<dt style='font-weight:normal'><b>KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation</b>, <i>BioNLP Workshop (Shared Tasks) at ACL 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
 <br>
-<dt><b>Patient-Friendly Radiology Report Generation using Large Language Models</b>, <i>KCC 2025</i></dt>
+<dt style='font-weight:normal'><b>Patient-Friendly Radiology Report Generation using Large Language Models</b>, <i>KCC 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
 </dl>
