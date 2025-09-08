@@ -40,9 +40,11 @@ $$\begin{aligned}g(x) & = x_1 + x_2+\cdots+x_n \\ f(z) & =  \begin{cases} 0, z <
 
 #### Augmented MCP (퍼셉트론)
 * 데이터에 없는 샘플의 값을 알 수 있도록 데이터 특징과 레이블 간 관계를 학습하기
+
 $$\begin{align}g(x) & = w_1x_1 + w_2x_2 + \cdots + w_nx_n + b = \sum_{i=1}^{n}w_ix_i + b \\ f(z) & = \begin{cases}-&1, z \leq 0 \\ & 1, z > 0\end{cases} \\ y = f(g(x)) & = \begin{cases} - & 1, g(x) \leq 0 \\ & 1, g(x) > 0\end{cases}\end{align}$$
 
 **벡터로 표현하려면**
+
 $$y = \begin{cases} - & 1, \mathbf{w}^\top\mathbf{x} \leq 0 \\ & 1, \mathbf{w}^\top\mathbf{x} > 0 \end{cases}, \text{ where } \mathbf{w} = \{w_0, w_1, \cdots, w_n\} \text{ and } \mathbf{x} = \{1, x_1, \cdots, x_n\}
 $$
 
