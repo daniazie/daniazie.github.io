@@ -49,6 +49,7 @@ $$y = \begin{cases} - & 1, \mathbf{w}^\top\mathbf{x} \leq 0 \\ & 1, \mathbf{w}^\
 $$
 
 **파라미터 업데이트**
+
 $$\mathbf{w}_{\text{new}} = \mathbf{w}_\text{old} + y\mathbf{x} \text{ if } y\mathbf{w}^\top\mathbf{x} \leq 0$$
 
 > **왜 $y\mathbf{w}^\top\mathbf{x}$인가?**<br>
