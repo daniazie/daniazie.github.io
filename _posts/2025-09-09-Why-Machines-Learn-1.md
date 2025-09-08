@@ -26,9 +26,10 @@ ${x, y}$를 가지는 데이터를 훈련데이터하고 하는데 labeled data 
 </dt></dl></blockquote>
 
 ### 첫 인공 뉴런
-**McCulloch-Pitts 뉴런:** 계산 단위인데, 계산만 가능하고 학습 불가능 &rarr; Rosenblatt's Perceptron
+**McCulloch-Pitts (MCP) 뉴런:** 계산 단위인데, 계산만 가능하고 학습 불가능 &rarr; Rosenblatt's Perceptron
 
-> #### MCP $$\begin{aligned}g(x) & = x_1 + x_2+\cdots+x_n \\ f(z) & =  \begin{cases} 0, z < \theta \\ 1, z \geq \theta \end{cases} \\ y = f(g(x)) & = \begin{cases} 0, g(x) < \theta \\ 1, g(x) \geq \theta \end{cases} \end{aligned}$$
+$$\begin{aligned}g(x) & = x_1 + x_2+\cdots+x_n \\ f(z) & =  \begin{cases} 0, z < \theta \\ 1, z \geq \theta \end{cases} \\ y = f(g(x)) & = \begin{cases} 0, g(x) < \theta \\ 1, g(x) \geq \theta \end{cases} \end{aligned}$$
+
 
 ### 실수로써 학습하기
 #### 학습이란
