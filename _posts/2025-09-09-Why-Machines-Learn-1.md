@@ -17,6 +17,8 @@ KHUDA 자연언어처리 트랙 뒷타임 수학 세션은 Anil Ananthaswamy가 
 ### 지도학습
 
 $$y = w_1x_1 + w_2x_2 + \cdots +w_nx_n = \sum_{i=1}^n w_ix_i$$
+
+
 을 가정합시다. 수학적으로 지도학습은 각 가중치 $w_i$를 추출하도록 학습하는 목표입니다. 즉, 특징 (features)와 타겟값의 관계를 분석하는 것입니다.
 
 ${x, y}$를 가지는 데이터를 훈련데이터하고 하는데 labeled data 또는 annotated data라고도 합니다. 
