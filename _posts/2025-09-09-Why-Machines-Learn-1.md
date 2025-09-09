@@ -55,10 +55,8 @@ $$
 $$\mathbf{w}_{\text{new}} = \mathbf{w}_\text{old} + y\mathbf{x} \text{ if } y\mathbf{w}^\top\mathbf{x} \leq 0$$
 
 > **왜 $y\mathbf{w}^\top\mathbf{x}$인가?**<br>
-$y$과 $\mathbf{w}^\top\mathbf{x}$가, 즉 실제값과 예측값이, 똑같으면 스칼라곱은 양수고, 예측값이 틀리면 음수가 나와서 잘 예측한지 확인하도록 스칼라곱 과정을 진행합니다.
-
-<br>
-> 즉, 데이터와 적합하는 가중치와 편향을 알아보는 목표입니다
+$y$과 $\mathbf{w}^\top\mathbf{x}$가, 즉 실제값과 예측값이, 똑같으면 스칼라곱은 양수고, 예측값이 틀리면 음수가 나와서 잘 예측한지 확인하도록 스칼라곱 과정을 진행합니다.<br> <br>
+&rarr; 즉, 데이터와 적합하는 가중치와 편향을 알아보는 목표입니다
 
 | MCP | Perceptron | 
 | ----| -----|
