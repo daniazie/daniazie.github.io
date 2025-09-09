@@ -129,8 +129,8 @@ class Perceptron:
         """
         epoch = self.epoch
 
-        for _ in tqdm(range(epoch), desc='Epoch'):
-            for i in range(len(self.inputs)):
+        for e in range(epoch):
+            for i in tqdm(range(len(self.inputs)), desc=f'Epoch {e+1}'):
                 pred = self.weights @ self.inputs[i]
                 acc = self.step_function(pred) * self.labels[i]
                 if acc <= 0:
@@ -150,3 +150,77 @@ class Perceptron:
 
         return pred
 ```
+
+### 보너스: 기초 평가 방법들
+
+나중 6주차 때 평가에 대해 공부할 테지만, 그래도 자연언어처리에 사용하는 평가의 기초 공식을 간략하게 공부하면 좋지 않을까 싶었습니다.
+
+#### Accuracy
+제일 기분 공식은 정확성(Accuracy)라고, 전체 샘플에 비해 모델을 어느 정도 잘 맞추는지를 알려주는 공식입니다. 즉, 
+
+$$\text{Accuracy} = \frac{\text{Correct Predictions}}{\text{Total Samples}}$$
+
+코드로:
+```python
+def evaluate(pred_labels, label):
+    count = 0
+    for pred, true in zip(pred_labels, label):
+        if pred == true:
+            count += 1
+    return count/len(pred_labels)
+```
+
+하지만, 클래스 불균형이 있으면 단순히 Accuracy를 이용하면 불확실한 결과도 나올 수도 있습니다.
+
+따라서, confusion matrix를 이용하는 평가 공식을 이용합니다.
+
+#### Le Confusion Matrix
+
+예측값은 4가지로 분류될 수 있습니다. 첫번째 경우 true positive이라고 잘 예측된 positive한 레이블, 두번째는 true negative이라고 잘 예측된 negative한 레이블, 셋번째 false positive이라고 못 맞추는 negative한 레이블, 그리고 false negative이라고 못 맞추는 positive한 레이블. 즉,
+
+
+|Pred/True|Positive|Negative
+|------|------|------|
+**Positive**|TP|FP|
+**Negative**|FN|TN|
+
+따라서, confusion matrix를 이용해 정확성을 다시 정의하려면,
+
+$$\text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}}$$
+
+즉, 단순히 모델은 어느 정도 잘 맞추느냐를 나타내는 공식입니다.
+
+#### 관련성 (Relevance)
+
+관련성은 모델이 얼마 정도로 우리가 원하는 정보를 추출하는지를 알려주는 평가방법입니다. 관련성 기반 평가 계산은 크게 3가지 있습니다.
+
+**Precision**
+
+Precision은 모델이 positive하는 것으로 예측하는 샘플에 비해 올바르게 positive하는 것을 예측하는 값이 나타납니다. 즉,
+
+$$\text{Precision} = \frac{TP}{\text{TP} + \text{FP}}$$
+
+**Recall**
+
+Recall은 실제 positive 값 샘플에 비해 모델이 올바르게 예측하는 positive값 얼마인지를 나타내는 값입니다. 즉,
+
+$$\text{Recall} = \frac{TP}{\text{TP} + \text{FN}}$$
+
+**Precision vs. Recall**
+
+Precision과 Recall 중에 어떤 걸로 사용하면 더 나을까요? 정답은 케이스바이케이스입니다. 
+
+FP 줄이도록 하고자 하면 Precision 이용하면 더 낫고 FN 줄이도록 하고자 하면 Recall 이용하면 더 좋죠. 예를 들어 암 검사에서 FP 나타나면 환자에게 비용이 많아지며 FP를 줄도록 평가하면 더 좋고, 피슁이 발생하면 정말 大 일 나겠어 Recall 위주로 평가하면 제일 베스트죠. 
+
+**$F_1$ 점수**
+
+$F_1$ 점수는 Precision과 Recall 같이 계산하는 평가방법인데, $\beta=1$인 $F_\beta$ 점수 나타납니다. $\beta$는 가중치이므로 $\beta=1$이라면 Precision과 Recall을 대칭으로 대표해 계산합니다. 즉, Precision과 Recall 조화 평균(harmonic mean)을 나타냅니다.
+
+$$F_\beta = \frac{(1+\beta^2)\cdot\text{precision}\cdot\text{recall}}{\beta^2\cdot\text{precision}+\text{recall}}$$
+
+$\beta > 1$라면, $w_\text{recall} > w_\text{precision}$이라고 생각해도 되고 $\beta < 1$ 경우 $w_\text{recall} < w_\text{precision}$이라고 생각해도 됩니다. 즉, $\beta =1$일 때,  $w_\text{recall} = w_\text{precision}$입니다.
+
+$$\begin{align*} \beta & = 1, \\ F_1 & = 2\cdot\frac{\text{precision}\cdot\text{recall}}{\text{precision} + \text{recall}} = \frac{2\text{TP}}{2\text{TP}+\text{FP}+\text{FN}}\end{align*}$$
+
+> 노트!
+LLM 평가할 때 $F_1$ 위주로 이용합니다.
