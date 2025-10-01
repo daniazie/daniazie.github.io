@@ -26,7 +26,7 @@ Specifically, $\frac{dy}{dx}$ is a little bit of $y$ divided by a little bit of 
 
 ## Gradient Descent
 
-$$x_\text{new} = x_\text{old} - \eta\cdot\text{gradient} \\ y_\text{new} = x_\text{new}^2$$
+$$x_\text{new} = x_\text{old} - \eta\cdot\text{gradient} $$ $$ y_\text{new} = x_\text{new}^2$$
 
 What we aim to do here is minimise $x$ in order to move down the gradient. $\eta$ is some fraction that represents how far along the gradient do we want to move (step size). That is, we want to find the global minimum.
 
@@ -44,7 +44,11 @@ Reorganising the above equations, we get the following weight update rule: $$\ma
 
 However, with a large number of features, finding the gradient would be computatinally expensive, if not impossible. Thus, we estimate the gradient so that the update rule becomes: 
 
-$$\mathbf{w}_\text{new} = \mathbf{w}_\text{old} + 2\mu\epsilon\mathbf{x}, \text{where}\\\mu = \text{step size} \\ \epsilon = \text{error based on one data point}, \\ \mathbf{x} = \text{the vector representing a single data point}$$
+$$\mathbf{w}_\text{new} = \mathbf{w}_\text{old} + 2\mu\epsilon\mathbf{x}, \text{where}\\\mu = \text{step size}$$
+
+$$ \epsilon = \text{error based on one data point}, $$
+
+$$ \mathbf{x} = \text{the vector representing a single data point}$$
 
 The error is given by:
 
