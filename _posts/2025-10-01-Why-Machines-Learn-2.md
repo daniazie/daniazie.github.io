@@ -44,7 +44,9 @@ Reorganising the above equations, we get the following weight update rule: $$\ma
 
 However, with a large number of features, finding the gradient would be computatinally expensive, if not impossible. Thus, we estimate the gradient so that the update rule becomes: 
 
-$$\mathbf{w}_\text{new} = \mathbf{w}_\text{old} + 2\mu\epsilon\mathbf{x}, \text{where}$$ $$\mu = \text{step size}$$
+$$\mathbf{w}_\text{new} = \mathbf{w}_\text{old} + 2\mu\epsilon\mathbf{x} \text{ where, }$$ 
+
+$$\mu = \text{step size}$$
 
 $$ \epsilon = \text{error based on one data point}, $$
 
