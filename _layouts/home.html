@@ -48,7 +48,7 @@ layout: default
 
 <div id="about">
   {% capture about_content %}
-  {% include_relative /_pages/about.md %}
+  {% include_relative ../_pages/about.md %}
   {% endcapture %}
   {{ about_content | markdownify }}
 </div>
