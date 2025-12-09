@@ -15,7 +15,7 @@
     }
 </style>
 
-# Dania Moriazi
+# About Me
 
 I am a final year student at Kyung Hee University double majoring in Software Convergence (Data Science track) and Space Science. I am currently an undergraduate researcher in the Language and Data Intelligence (LDI) Lab under my university's Department of Artificial Intelligence where I explore my interest in Natural Language Processing. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on low resource languages (specifically Southeast Asian languages).
 
