@@ -1,6 +1,6 @@
 ---
-layout: posts
-title: "Posts"
+layout: dump
+title: "Post Dump"
 icon: fas fa-stream
 order: 2
 ---
