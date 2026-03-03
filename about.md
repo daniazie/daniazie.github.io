@@ -17,13 +17,17 @@
 
 # About Me
 
-I am a final year student at Kyung Hee University double majoring in Software Convergence (Data Science track) and Space Science. I am currently an undergraduate researcher in the Language and Data Intelligence (LDI) Lab under my university's Department of Artificial Intelligence where I explore my interest in Natural Language Processing. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on low resource languages (specifically Southeast Asian languages).
+I am a final year student at Kyung Hee University double majoring in Software Convergence (Data Science track) and Space Science. I am currently an undergraduate researcher in the Language and Data Intelligence (LDI) Lab under my university's Department of Artificial Intelligence where I explore my interest in Natural Language Processing. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on **low resource languages** (specifically Southeast Asian languages).
 
 ## Education
 
 <b>Kyung Hee University</b>
 <div>
 <dl>
+<div class='row'>
+<dt>MEng in AI for Healthcare and Medicine</dt>
+<dd>2026.3 – present.</dd>
+</div>
 <div class='row'>
 <div class='column'>
 
