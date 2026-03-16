@@ -1,4 +1,7 @@
 <style>
+    .row-header {
+      margin-left: 12.5px;
+    }
     .column {
         float: left;
         width:50%;
@@ -21,15 +24,19 @@ I am a final year student at Kyung Hee University double majoring in Software Co
 
 ## Education
 
-<b>Kyung Hee University</b>
+<h4>Kyung Hee University</h4>
 <div>
 <dl>
+<div class="row-header">
 <h4>Graduate</h4>
+</div>
 <div class='row'>
 <dt>MEng in AI for Healthcare and Medicine</dt>
 <dd>2026.3 – present.</dd>
 </div>
+<div class="row-header">
 <h4>Undergraduate</h4>
+</div>
 <div class='row'>
 <div class='column'>
 
