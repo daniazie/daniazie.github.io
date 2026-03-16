@@ -24,10 +24,12 @@ I am a final year student at Kyung Hee University double majoring in Software Co
 <b>Kyung Hee University</b>
 <div>
 <dl>
+<h4>Graduate</h4>
 <div class='row'>
 <dt>MEng in AI for Healthcare and Medicine</dt>
 <dd>2026.3 – present.</dd>
 </div>
+<h4>Undergraduate</h4>
 <div class='row'>
 <div class='column'>
 
@@ -50,11 +52,15 @@ I am a final year student at Kyung Hee University double majoring in Software Co
 
 ## Publications
 
+#### International
 <dl> 
-<dt style='font-weight:normal'>Bidirectional Zero-Shot Translation for the Korean-Malay Language Pair with Small Language Models (sLLMs), <i>KSC 2025</i></dt>
-<dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
-<br>
 <dt style='font-weight:normal'>KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation, <i>BioNLP Workshop (Shared Tasks) at ACL 2025</i></dt>
+<dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
+</dl>
+
+#### Domestic
+<dl>
+<dt style='font-weight:normal'>Bidirectional Zero-Shot Translation for the Korean-Malay Language Pair with Small Language Models (sLLMs), <i>KSC 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
 <br>
 <dt style='font-weight:normal'>Patient-Friendly Radiology Report Generation using Large Language Models, <i>KCC 2025</i></dt>
