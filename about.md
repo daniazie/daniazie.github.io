@@ -28,14 +28,14 @@ I am a final year student at Kyung Hee University double majoring in Software Co
 <div>
 <dl>
 <div class="row-header">
-<h4>Graduate</h4>
+<b>Graduate</b>
 </div>
 <div class='row'>
 <dt>MEng in AI for Healthcare and Medicine</dt>
 <dd>2026.3 – present.</dd>
 </div>
 <div class="row-header">
-<h4>Undergraduate</h4>
+<b>Undergraduate</b>
 </div>
 <div class='row'>
 <div class='column'>
