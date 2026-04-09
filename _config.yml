@@ -3,6 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+gems:
+  - jekyll-paginate-v2
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -147,8 +150,13 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
-paginate_path: "/recents/page:num/"
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/recents/page:num/'
+  title: ':title - page :num of :max'
+  sort_field: 'date'
+  sort_reverse: true
 
 # The base URL of your site
 baseurl: ""
