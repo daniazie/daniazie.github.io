@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include lang.html %}
-
+{% comment %} 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
@@ -44,7 +44,7 @@ layout: default
   {% for i in (normal_start..normal_end) %}
     {% assign posts = posts | push: all_normal[i] %}
   {% endfor %}
-{% endif %}
+{% endif %} {% endcomment %}
 
 <div id="about">
   {% capture about_content %}
