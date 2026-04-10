@@ -24,3 +24,5 @@ package-lock.json
 
 # Misc
 _tabs/tags.md
+_sass/vendors
+assets/js/dist
