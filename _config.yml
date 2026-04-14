@@ -226,7 +226,7 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [archives, tags]
+  enabled: [archives, tags, recents]
   layouts:
     category: category
     recents: recents
