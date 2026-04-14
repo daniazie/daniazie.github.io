@@ -226,12 +226,12 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [archives, tags, recents]
+  enabled: [categories, tags, recents]
   layouts:
     category: category
     recents: recents
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /archives/:name/
+    category: /categories/:name/
     recents: /posts/:title
