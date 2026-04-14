@@ -230,8 +230,6 @@ jekyll-archives:
   layouts:
     category: category
     recents: recents
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /archives/:name/
     recents: /posts/:title
