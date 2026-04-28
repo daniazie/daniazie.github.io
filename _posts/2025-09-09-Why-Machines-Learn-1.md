@@ -8,6 +8,7 @@ categories:
     - Study
     - 수학
 tags: KHUDA
+lang: ko-KR
 ---
 
 ## 개요
