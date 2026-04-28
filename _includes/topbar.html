@@ -55,6 +55,7 @@
       {% endif %}
     </div>
 
+    <div class="d-flex justify-content-end">
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
       <i class="fas fa-search fa-fw"></i>
     </button>
@@ -73,5 +74,7 @@
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
       {{- site.data.locales[include.lang].search.cancel -}}
     </button>
+    {% include lang-selector.html %}
+  </div>
   </div>
 </header>

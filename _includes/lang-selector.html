@@ -1,0 +1,19 @@
+{% if site.languages.size > 0 %}
+  <div class="btn-group">
+    <button type="button" class="btn btn-link nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-fw fas fa-language"></i>
+    </button>
+    <ul class="dropdown-menu">
+      {% for lang in site.languages %}
+        <li><a class="dropdown-item {% if lang == site.active_lang %}active{% endif %}" href="{{site.baseurl}}{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}">
+          {% case lang %}
+          {% when 'en' %}English
+          {% when 'ko' %}한국어
+          {% when 'ms' %}Bahasa Melayu
+          {% else %}{{ lang }}
+          {% endcase %}
+        </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
