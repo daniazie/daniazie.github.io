@@ -4,7 +4,7 @@
 theme: jekyll-theme-chirpy
 
 gems:
-  - jekyll-paginate #-v2
+  - jekyll-paginate-v2
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -172,17 +172,6 @@ collections:
     output: true
     sort_by: order
 
-# pagination:
-#   enabled: true
-#   per_page: 10
-#   sort_field: 'date'
-#   sort_reverse: true
-#   title: ':title'
-#   category: ''
-
-paginate: 10
-paginate_path: "/latest/page:num/"
-
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
@@ -204,6 +193,17 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+
+pagination:
+  enabled: true
+  per_page: 10
+  sort_field: 'date'
+  sort_reverse: true
+  title: ':title'
+  category: ''
+
+# paginate: 10
+# paginate_path: /latest/page:num/
 
 sass:
   style: compressed
@@ -232,7 +232,7 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [archives, tags]
   layouts:
     category: category
     tag: tag
