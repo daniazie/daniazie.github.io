@@ -15,6 +15,6 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin, :windows]
 
 group :jekyll_plugins do
   gem "jekyll-paginate-v2"
-  # gem "jekyll-paginate"
+  gem "jekyll-polyglot"
   gem "jekyll-feed"
 end

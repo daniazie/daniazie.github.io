@@ -5,11 +5,15 @@ theme: jekyll-theme-chirpy
 
 gems:
   - jekyll-paginate-v2
+  - jekyll-polyglot
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+languages: ["en", "ms-MY", "ko-KR"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "CNAME"]
+parallel_localization: true
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Seoul
