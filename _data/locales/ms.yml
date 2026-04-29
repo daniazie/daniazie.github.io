@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Laman Utama
-  latest: Pos Terbaru
+  latest: Pos Terbaharu
   tags: Tag
   archives: Arkib
   dump: Campakkan
