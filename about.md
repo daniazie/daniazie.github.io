@@ -48,8 +48,9 @@ A graduate student with a background in software, data science and space science
 </div>
 
 <div class='column'>
-<dt>B.S. in Space Science and Astronomy (Double Major)</dt>
+<dt>B.S. in Space Science and Astronomy</dt>
     <dd>
+    Double Major.
 2022.3 – 2026.2.
     </dd>
 </div>
