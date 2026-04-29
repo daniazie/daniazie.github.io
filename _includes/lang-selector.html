@@ -5,7 +5,7 @@
     </button>
     <ul class="dropdown-menu">
       {% for lang in site.languages %}
-        <li><a class="dropdown-item {% if lang == site.active_lang %}active{% endif %}" {% static_href %}href="{{site.baseurl}}{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"{% endstatic_href %}>
+        <li><a class="dropdown-item {% if lang == site.active_lang %}active{% endif %}" href="{{site.baseurl}}{% if lang == site.default_lang %}{{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}">
           {% case lang %}
           {% when 'en' %}English
           {% when 'ko' %}한국어
