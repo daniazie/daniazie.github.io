@@ -13,7 +13,7 @@ gems:
 languages: ["en", "ms", "ko"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "CNAME"]
-parallel_localization: true
+parallel_localization: false
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Seoul
