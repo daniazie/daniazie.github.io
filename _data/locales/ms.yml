@@ -10,7 +10,7 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Beranda
+  home: Laman Utama
   latest: Pos Terbaru
   tags: Tag
   archives: Arkib
