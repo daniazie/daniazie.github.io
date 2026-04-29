@@ -218,7 +218,6 @@ compress_html:
   ignore:
     envs: [development]
 
-strict_front_matter: true
 incremental: true
 
 exclude:
