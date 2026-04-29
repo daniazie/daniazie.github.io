@@ -18,9 +18,9 @@
     }
 </style>
 
-# About Me
+# About
 
-I am a graduate student at Kyung Hee University majoring in Artificial Intelligence, with a background in software and data science, and space science. I am currently a graduate researcher in the Language and Data Intelligence (LDI) Lab under my university where I explore my interest in Natural Language Processing. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on **low resource languages** (specifically Southeast Asian languages).
+A graduate student with a background in software, data science and space science, I am currently majoring in Aritificial Intelligence at Kyung Hee University where I participate in the Language and Data Intelligence (LDI) Lab as a graduate researcher, exploring all things NLP. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on **low resource languages** (specifically Southeast Asian languages).
 
 ## Education
 
@@ -60,12 +60,14 @@ I am a graduate student at Kyung Hee University majoring in Artificial Intellige
 ## Publications
 
 #### International
+<div class="row">
 <dl> 
 <dt style='font-weight:normal'>KHU_LDI at BioLaySumm2025: Fine-tuning and Refinement for Lay Radiology Report Generation, <i>BioNLP Workshop (Shared Tasks) at ACL 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
 </dl>
-
+</div>
 #### Domestic
+<div class="row">
 <dl>
 <dt style='font-weight:normal'>Bidirectional Zero-Shot Translation for the Korean-Malay Language Pair with Small Language Models (sLLMs), <i>KSC 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
@@ -73,3 +75,4 @@ I am a graduate student at Kyung Hee University majoring in Artificial Intellige
 <dt style='font-weight:normal'>Patient-Friendly Radiology Report Generation using Large Language Models, <i>KCC 2025</i></dt>
 <dd><b>Nur Alya Dania binti Moriazi</b>, Mujeen Sung</dd>
 </dl>
+</div>
