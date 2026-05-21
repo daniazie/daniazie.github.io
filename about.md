@@ -18,7 +18,7 @@
     }
 </style>
 
-# About
+# Who I Am
 
 A graduate student with a background in software, data science and space science, I am currently majoring in Aritificial Intelligence at Kyung Hee University where I participate in the Language and Data Intelligence (LDI) Lab as a graduate researcher, exploring all things NLP. My research interests include **controllable text generation**, with a focus on text summarisation and, more recently, machine translation on **low resource languages** (specifically Southeast Asian languages).
 
