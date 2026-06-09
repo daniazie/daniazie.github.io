@@ -1,0 +1,77 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Pos
+  category: Kategori
+  tag: Tag
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Laman Utama
+  latest: Pos Terbaharu
+  tags: Tag
+  archives: Arkib
+  dump: Campakkan
+
+# the text displayed in the search bar & search results
+search:
+  hint: Cari
+  cancel: Batal
+  no_results: Tiada hasil yang ditemukan.
+
+panel:
+  lastmod: Pos Terbaharu
+  trending_tags: Tag Popular
+  toc: Kandungan
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Pos ini dilisensikan di bawah :LICENSE_NAME oleh penulis.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Sebagian konten dilindungi.
+  verbose: >-
+    Kecuali jika dinyatakan, pos blog di laman ini dilisensikan
+    di bawah Lisensi Creative Commons Attribution 4.0 International (CC BY 4.0) oleh penulis.
+
+meta: Didukung oleh :PLATFORM dengan tema :THEME
+
+not_found:
+  statement: Maaf, URL berkenaan gagal ditemukan.
+
+notification:
+  update_found: Versi konten baru tersedia.
+  update: Perbaharui
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Oleh
+  posted: Diterbit
+  updated: Dikemaskini
+  words: kata
+  pageview_measure: dilihat
+  read_time:
+    unit: minit
+    prompt: baca
+  relate_posts: Pos-pos berkait
+  share: Kongsi
+  button:
+    next: Selepas
+    previous: Sebelum
+    copy_code:
+      succeed: Disalin!
+    share_link:
+      title: Salin pautan
+      succeed: Pautan disalin!
+
+# categories page
+categories:
+  category_measure: kategori
+  post_measure: Pos

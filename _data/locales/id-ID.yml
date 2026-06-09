@@ -11,10 +11,10 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Beranda
-  categories: Kategori
+  latest: Postingan Terbaru
   tags: Tagar
   archives: Arsip
-  about: Tentang
+  dump: Semua
 
 # the text displayed in the search bar & search results
 search:

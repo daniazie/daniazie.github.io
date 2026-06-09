@@ -3,46 +3,53 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+gems:
+  - jekyll-paginate-v2
+  - jekyll-polyglot
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+languages: ["en", "ms", "ko"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "CNAME"]
+parallel_localization: false
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Dania Moriazi                          # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Aspiring NLP Researcher @ Kyung Hee University.   # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >-                        # used by seo meta and the atom feed
+  AI graduate student at Kyung Hee University just trying their best.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'https://daniazie.github.io'
 
 github:
-  username: github_username # change to your GitHub username
+  username: daniazie   # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+  # username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Nur Alya Dania binti Moriazi
+  email: dania.moriazi01@khu.ac.kr    # change to your email address
+  # fediverse_handle: "@you@domain.com" # change to your fediverse handle or leave empty
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/daniazie__      # change to your twitter homepage
+    - https://github.com/daniazie         # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.instagram.com/daniaazi__
+    - https://www.linkedin.com/in/dania-moriazi
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +105,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -109,7 +116,7 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -119,13 +126,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
+    repo: daniazie/daniazie.github.io # <gh-username>/<repo>
+    repo_id: 750972250
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
+    mapping: title # optional, default to 'pathname'
     strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
@@ -146,8 +153,6 @@ pwa:
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
-paginate: 10
 
 # The base URL of your site
 baseurl: ""
@@ -193,6 +198,14 @@ defaults:
       layout: page
       permalink: /:title/
 
+pagination:
+  enabled: true
+  per_page: 10
+  sort_field: 'date'
+  sort_reverse: true
+  title: ':title'
+  category: ''
+
 sass:
   style: compressed
 
@@ -204,6 +217,8 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+
+incremental: true
 
 exclude:
   - "*.gem"
@@ -223,4 +238,5 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/
+    category: /archives/:name/
+

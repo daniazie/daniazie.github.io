@@ -6,9 +6,15 @@ gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :mingw, :x64_mingw, :mswin, :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin, :windows]
+
+group :jekyll_plugins do
+  gem "jekyll-paginate-v2"
+  gem "jekyll-polyglot"
+  gem "jekyll-feed"
+end
