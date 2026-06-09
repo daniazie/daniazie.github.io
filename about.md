@@ -20,7 +20,7 @@
 
 # Who I Am
 
-I am an AI graduate student researcher in the Language and Data Intelligence (LDI) Lab at Kyung Hee University where I have dabbled here and there within the broad realm of NLP. My primary research interests within NLP include controllable text generation, hallucination and low-resource languages (particularly Southeast Asian (SEA) languages).
+I am an AI graduate student researcher in the Language and Data Intelligence (LDI) Lab at Kyung Hee University where I dabble here and there within the broad realm of NLP. My primary research interests within NLP include controllable text generation, hallucination and low-resource languages (particularly Southeast Asian (SEA) languages).
 
 ## Education
 
