@@ -12,6 +12,7 @@ platforms :windows, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
+gem "jekyll-sass-converter", "3.0.0"
 
 group :jekyll_plugins do
   gem "jekyll-paginate-v2"
